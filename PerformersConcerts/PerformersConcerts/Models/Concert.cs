@@ -18,7 +18,7 @@ namespace PerformersConcerts.Models
         public string Place { get; set; }
         //Дата за провеждане
         [Required]
-        public DateTime Data { get; set; }
+        public DateTime? Data { get; set; }
         //Идентификатор на изпълнител
         [ForeignKey("Performer")]
         public int Performer { get; set; }

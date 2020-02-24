@@ -17,6 +17,8 @@ namespace PerformersConcerts.Models
         public string VidMusicks { get; set; }
         //Колекция от концерти 1,2,3....
         public ICollection<Concert> Concerts { get; set; }
+
+        //public DateTime? Birthday { get; set; }
         public Performer()
         {
             this.Concerts = new HashSet<Concert>();
