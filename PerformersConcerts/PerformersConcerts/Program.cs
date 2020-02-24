@@ -61,14 +61,14 @@ namespace PerformersConcerts
             context.Concerts.Add(concert3);
             context.SaveChanges();
 
-            List<Performer> items = context.Performers.ToList();
-            foreach (var e in items)
-            {
-                Console.WriteLine($"{e.Name} -> {e.Nationality}");
-            }
+            //List<Performer> items = context.Performers.ToList();
+            //foreach (var e in items)
+            //{
+            //    Console.WriteLine($"{e.Name} -> {e.Nationality}");
+            //}
             //Печат на концертите
-            var concerts = context.Concerts.Where(x => x.Performer == 1).ToList();
-            concerts.ForEach(x => Console.WriteLine($"{x.Performer} {x.Name} {x.Price:f2}"));
+            //var concerts = context.Concerts.Where(x => x.Performer == 1).ToList();
+            //concerts.ForEach(x => Console.WriteLine($"{x.Performer} {x.Name} {x.Price:f2}"));
         }
     }
 }
