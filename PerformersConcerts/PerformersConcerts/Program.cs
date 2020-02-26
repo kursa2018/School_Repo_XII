@@ -59,8 +59,36 @@ namespace PerformersConcerts
             concert3.Data = new DateTime(2020, 06, 22);
             concert3.Price = 30.36;
             context.Concerts.Add(concert3);
+
+            var concert4 = new Concert();
+            concert4.Name = "Пролет в София";
+            concert4.Performer = 3;
+            concert4.Place = "София - НДК";
+            concert4.Data = new DateTime(2020, 03, 08);
+            concert4.Price = 30;
+            context.Concerts.Add(concert4);
             context.SaveChanges();
 
+            var concert5 = new Concert();
+            concert5.Name = "Велинградски празници";
+            concert5.Performer = 3;
+            concert5.Place = "Площад Николай Гяуров";
+            concert5.Data = new DateTime(2020, 04, 01);
+            concert5.Price = 17;
+            context.Concerts.Add(concert5);
+
+            var concert6 = new Concert();
+            concert6.Name = "Пловдивски Вечери";
+            concert6.Performer = 3;
+            concert6.Place = "Площад - Централ";
+            concert6.Data = new DateTime(2020, 04, 01);
+            concert6.Price = 25.69;
+            context.Concerts.Add(concert6);
+            context.SaveChanges();
+
+            var concerts = context.Concerts.ToList();
+            Console.WriteLine("Списък с концерти:");
+            concerts.ForEach(x => Console.WriteLine($"{x.Id} {x.Name}  {x.Data}"));
             //List<Performer> items = context.Performers.ToList();
             //foreach (var e in items)
             //{
