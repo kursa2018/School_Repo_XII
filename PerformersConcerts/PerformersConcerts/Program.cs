@@ -13,90 +13,105 @@ namespace PerformersConcerts
             //Създаваме БД
             context.Database.EnsureDeleted();
             context.Database.EnsureCreated();
-            var performer1 = new Performer();
-            performer1.Name = "Шъная Туейн";
-            performer1.Nationality = "Канада";
-            performer1.VidMusicks = "Кънтри";
-            context.Performers.Add(performer1);
+            //var performer1 = new Performer();
+            //performer1.Name = "Шъная Туейн";
+            //performer1.Nationality = "Канада";
+            //performer1.VidMusicks = "Кънтри";
+            //context.Performers.Add(performer1);
 
-            var performer2 = new Performer();
-            performer2.Name = "Род Стюърт";
-            performer2.Nationality = "Великобритания";
-            performer2.VidMusicks = "рок";
-            context.Performers.Add(performer2);
+            //var performer2 = new Performer();
+            //performer2.Name = "Род Стюърт";
+            //performer2.Nationality = "Великобритания";
+            //performer2.VidMusicks = "рок";
+            //context.Performers.Add(performer2);
 
-            var performer3 = new Performer();
-            performer3.Name = "Дженифър Лопес";
-            performer3.Nationality = "Пуерто Рико";
-            performer3.VidMusicks = "латино";
-            context.Performers.Add(performer3);
+            //var performer3 = new Performer();
+            //performer3.Name = "Дженифър Лопес";
+            //performer3.Nationality = "Пуерто Рико";
+            //performer3.VidMusicks = "латино";
+            //context.Performers.Add(performer3);
 
-            var performer4 = new Performer();
-            performer4.Name = "Бритни Спиърс";
-            performer4.Nationality = "САЩ";
-            performer4.VidMusicks = "поп музика";
-            context.Performers.Add(performer4);
+            //var performer4 = new Performer();
+            //performer4.Name = "Бритни Спиърс";
+            //performer4.Nationality = "САЩ";
+            //performer4.VidMusicks = "поп музика";
+            //context.Performers.Add(performer4);
             //Таблица концерти
-           
-            var concert1 = new Concert();
-            concert1.Name = "Да спасим света";
-            concert1.Performer = 1;
-            concert1.Place = "Читалището Велинград";
-            concert1.Data = new DateTime(2020, 02, 19);
-            concert1.Price = 14.25;
-            context.Concerts.Add(concert1);
-            var concert2 = new Concert();
-            concert2.Name = "Да изберем Доналт Тръмп";
-            concert2.Performer = 1;
-            concert2.Place = "Дом на културата";
-            concert2.Data = new DateTime(2020, 03, 08);
-            concert2.Price = 30.36;
-            context.Concerts.Add(concert2);
-            var concert3 = new Concert();
-            concert3.Name = "Спасете Грета Тумберг";
-            concert3.Performer = 2;
-            concert3.Place = "София - НДК";
-            concert3.Data = new DateTime(2020, 06, 22);
-            concert3.Price = 30.36;
-            context.Concerts.Add(concert3);
 
-            var concert4 = new Concert();
-            concert4.Name = "Пролет в София";
-            concert4.Performer = 3;
-            concert4.Place = "София - НДК";
-            concert4.Data = new DateTime(2020, 03, 08);
-            concert4.Price = 30;
-            context.Concerts.Add(concert4);
+
+            //var concert1 = new Concert();
+            //concert1.Name = "Да спасим света";
+            //concert1.Performer = 1;
+            //concert1.Place = "Читалището Велинград";
+            //concert1.Data = new DateTime(2020, 02, 19);
+            //concert1.Price = 14.25;
+            //context.Concerts.Add(concert1);
+            //var concert2 = new Concert();
+            //concert2.Name = "Да изберем Доналт Тръмп";
+            //concert2.Performer = 1;
+            //concert2.Place = "Дом на културата";
+            //concert2.Data = new DateTime(2020, 03, 08);
+            //concert2.Price = 30.36;
+            //context.Concerts.Add(concert2);
+            //var concert3 = new Concert();
+            //concert3.Name = "Спасете Грета Тумберг";
+            //concert3.Performer = 2;
+            //concert3.Place = "София - НДК";
+            //concert3.Data = new DateTime(2020, 06, 22);
+            //concert3.Price = 30.36;
+            //context.Concerts.Add(concert3);
+
+            //var concert4 = new Concert();
+            //concert4.Name = "Пролет в София";
+            //concert4.Performer = 3;
+            //concert4.Place = "София - НДК";
+            //concert4.Data = new DateTime(2020, 03, 08);
+            //concert4.Price = 30;
+            //context.Concerts.Add(concert4);
+            //context.SaveChanges();
+
+            //var concert5 = new Concert();
+            //concert5.Name = "Велинградски празници";
+            //concert5.Performer = 3;
+            //concert5.Place = "Площад Николай Гяуров";
+            //concert5.Data = new DateTime(2020, 04, 01);
+            //concert5.Price = 17;
+            //context.Concerts.Add(concert5);
+
+            //var concert6 = new Concert();
+            //concert6.Name = "Пловдивски Вечери";
+            //concert6.Performer = 3;
+            //concert6.Place = "Площад - Централ";
+            //concert6.Data = new DateTime(2020, 04, 01);
+            //concert6.Price = 25.69;
+            //context.Concerts.Add(concert6);
+            // Add()
+            Add();
             context.SaveChanges();
-
-            var concert5 = new Concert();
-            concert5.Name = "Велинградски празници";
-            concert5.Performer = 3;
-            concert5.Place = "Площад Николай Гяуров";
-            concert5.Data = new DateTime(2020, 04, 01);
-            concert5.Price = 17;
-            context.Concerts.Add(concert5);
-
-            var concert6 = new Concert();
-            concert6.Name = "Пловдивски Вечери";
-            concert6.Performer = 3;
-            concert6.Place = "Площад - Централ";
-            concert6.Data = new DateTime(2020, 04, 01);
-            concert6.Price = 25.69;
-            context.Concerts.Add(concert6);
-            context.SaveChanges();
-
-            var concerts = context.Concerts.ToList();
-            Console.WriteLine("Списък с концерти:");
-            concerts.ForEach(x => Console.WriteLine($"{x.Id} {x.Name}  {x.Data}"));
-            //List<Performer> items = context.Performers.ToList();
-            //foreach (var e in items)
-            //{
-            //    Console.WriteLine($"{e.Name} -> {e.Nationality}");
-            //}
-            //Печат на концертите
-            //var concerts = context.Concerts.Where(x => x.Performer == 1).ToList();
-            //concerts.ForEach(x => Console.WriteLine($"{x.Performer} {x.Name} {x.Price:f2}"));
+            //...........
+                 
         }
+        public static void Add()
+        {
+            var performer = new Performer();
+            using (var context = new ConcertPerformersDbContext())
+            {
+                Console.WriteLine("Въведете брой на изпълнителите: ");
+                var n = int.Parse(Console.ReadLine());
+                while (n>0)
+                {
+                    Console.WriteLine("Въведи име на изпълнител: ");
+                    performer.Name = Console.ReadLine();
+                    Console.WriteLine("Въведи националност: ");
+                    performer.Nationality = Console.ReadLine();
+                    Console.WriteLine("Въведи вид музика: ");
+                    performer.VidMusicks = Console.ReadLine();
+                    context.Add(performer);
+                    context.SaveChanges();
+                   n--;
+                }
+            }
+        }
+        // end Add()
     }
 }
