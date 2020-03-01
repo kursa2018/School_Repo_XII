@@ -1,6 +1,7 @@
 ﻿using avtopark.Models;
 using System;
-
+using System.Collections.Generic;
+using System.Linq;
 namespace avtopark
 {
     class Program
@@ -28,7 +29,12 @@ namespace avtopark
             context.Cars.Add(cars2);
             context.SaveChanges();
             //.....
-            
+            List<Car> cars = context.Cars.ToList();
+            foreach (var item in cars)
+            {
+                Console.WriteLine($"{item.Model} {item.Color} {item.PriceNaem}");
+                Console.WriteLine(new string('-',10));
+            }
         }
     }
 }
