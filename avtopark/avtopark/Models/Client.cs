@@ -22,7 +22,6 @@ namespace avtopark.Models
 
         public string Creditcard { get; set; }
         [Required]
-        public DateTime Boughtin { get; set; }
         [Key]
         public string CarOnLoan { get; set; }
         public Car Car { get; set; }

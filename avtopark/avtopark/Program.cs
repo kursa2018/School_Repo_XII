@@ -27,14 +27,34 @@ namespace avtopark
             cars2.PriceNaem = 12.36;
             cars2.Id = "7777";
             context.Cars.Add(cars2);
-            context.SaveChanges();
+            //.......
+            Car cars3 = new Car();
+            cars3.Model = "Mitsubishi";
+            cars3.Color = "YELLOW";
+            cars3.YearMaking = new DateTime(1969, 06, 28);
+            cars3.PriceNaem = 58.69;
+            cars3.Id = "1240";
+            context.Cars.Add(cars3);
             //.....
-            List<Car> cars = context.Cars.ToList();
-            foreach (var item in cars)
-            {
-                Console.WriteLine($"{item.Model} {item.Color} {item.PriceNaem}");
-                Console.WriteLine(new string('-',10));
-            }
+            Client client1 = new Client();
+            client1.Name = "Ivan";
+            client1.Family = "Ivanov";
+            client1.Address = "Kristal";
+            client1.Idcard = 523;
+            client1.Creditcard = "BG 12598";
+            client1.CarOnLoan = "7777";
+            context.Clients.Add(client1);
+            //.......
+            Client client2 = new Client();
+            client2.Name = "Georgy";
+            client2.Family = "Kostadinov";
+            client2.Address = "Pionerska 36";
+            client2.Idcard = 526;
+            client2.Creditcard = "BG 12598";
+            client2.CarOnLoan = "1000";
+            context.Clients.Add(client2);
+            context.SaveChanges();
+
         }
     }
 }
