@@ -53,6 +53,15 @@ namespace avtopark
             client2.Creditcard = "BG 12598";
             client2.CarOnLoan = "1000";
             context.Clients.Add(client2);
+            //........
+            Client client3 = new Client();
+            client3.Name = "Nikolay";
+            client3.Family = "Popov";
+            client3.Address = "Saedinenie 100";
+            client3.Idcard = 500;
+            client3.Creditcard = "BG 12598";
+            client3.CarOnLoan = "1240";
+            context.Clients.Add(client3);
             context.SaveChanges();
 
         }
