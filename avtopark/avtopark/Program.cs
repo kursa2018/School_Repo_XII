@@ -66,7 +66,7 @@ namespace avtopark
 
             //Извикваме презентационния слой!
             Display display = new Display();
-           context.SaveChanges();
+           //context.SaveChanges();
 
         }
     }

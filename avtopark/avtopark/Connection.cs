@@ -6,6 +6,6 @@ namespace avtopark
 {
     public static class Connection
     {
-        public const string Conection = @"Server=DESKTOP-3D8F6H5\SQLEXPRESS;Database=AvtosalonDb;Integrated Security=true";
+        public const string Conection = @"Server=DESKTOP-MLDU4BM\SQLEXPRESS;Database=AvtosalonDb;Integrated Security=true";
     }
 }
