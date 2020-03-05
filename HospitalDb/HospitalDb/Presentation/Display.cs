@@ -1,4 +1,5 @@
 ﻿using HospitalDb.Business;
+using HospitalDb.Models;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -37,6 +38,15 @@ namespace HospitalDb.Presentation
                     case 2:
                         AddDoctor();
                         break;
+                    case 3:
+                        UpdateDoctor();
+                        break;
+                    case 4:
+                        FetchDoctor();
+                        break;
+                    case 5:
+                        DeleteDoctor();
+                        break;
                 }
                 //....
 
@@ -56,6 +66,59 @@ namespace HospitalDb.Presentation
             {
                 Console.WriteLine($"{item.Id} {item.Name} {item.Cabinet} {item.Specialnost}");
             }
-        }
+        }//List()
+        private void AddDoctor()
+        {
+            Doctor doctor = new Doctor();
+            Console.WriteLine("Въведете име на доктор:");
+            doctor.Name = Console.ReadLine();
+            Console.WriteLine("Въведете специалност на доктор: ");
+            doctor.Specialnost = Console.ReadLine();
+            Console.WriteLine("Въведете номер на кабинет:");
+            doctor.Cabinet = int.Parse(Console.ReadLine());
+            doctorsDb.AddDoctor(doctor);
+        }//end AddDoctors()
+        private void UpdateDoctor()
+        {
+            Console.WriteLine("Въведете Id на доктор: ");
+            int id = int.Parse(Console.ReadLine());
+            Doctor doctor = doctorsDb.GetDoctor(id);
+            if (doctor!=null)
+            {
+                Console.WriteLine("Въведи име: ");
+                doctor.Name = Console.ReadLine();
+                Console.WriteLine("Въведи специалност: ");
+                doctor.Specialnost = Console.ReadLine();
+                Console.WriteLine("Въведи кабинет: ");
+                doctor.Cabinet = int.Parse(Console.ReadLine());
+                doctorsDb.UpdateDoctor(doctor);
+            }
+            else
+            {
+                Console.WriteLine("Докторът не съществува!");
+            }
+        }//end Update()
+        private void FetchDoctor()
+        {
+            Console.WriteLine("Въведете Id на лекар: ");
+            int id = int.Parse(Console.ReadLine());
+            Doctor doctor = doctorsDb.GetDoctor(id);
+            if (doctor!=null)
+            {
+                Console.WriteLine(new string('-',40));
+                Console.WriteLine($"ID:-> {doctor.Id}");
+                Console.WriteLine($"Име:-> {doctor.Name}");
+                Console.WriteLine($"Специалност:-> {doctor.Specialnost}");
+                Console.WriteLine($"Кабинет:-> {doctor.Cabinet}");
+                Console.WriteLine(new string('-', 40));
+            }
+        }//end Fetch()
+        private void DeleteDoctor()
+        {
+            Console.WriteLine("Въведете ID на доктор за изтриване: ");
+            int id = int.Parse(Console.ReadLine());
+            doctorsDb.DeleteDoctor(id);
+            Console.WriteLine("Докторът е изтрит!!!");
+        }//end DelDoc()
     }
 }
