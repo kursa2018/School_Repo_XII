@@ -8,7 +8,7 @@ namespace avtopark.Business
 {
     public class ProductBussines
     {
-        private AvtosalovDbContext avtosalovDbContext { get; set; }
+        private AvtosalovDbContext avtosalovDbContext;
         public List<Car>GetAll()
         {
             using (avtosalovDbContext = new AvtosalovDbContext())
