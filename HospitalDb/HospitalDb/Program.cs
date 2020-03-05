@@ -7,10 +7,10 @@ namespace HospitalDb
     {
         static void Main(string[] args)
         {
-            //var context = new HospitalDbContext();
+            var context = new HospitalDbContext();
             //Изтриваме и създаваме BD
-            //context.Database.EnsureDeleted();
-            //context.Database.EnsureCreated();
+            context.Database.EnsureDeleted();
+            context.Database.EnsureCreated();
             Display displayDoctors = new Display();
         }
     }

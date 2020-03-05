@@ -1,4 +1,5 @@
-﻿using System;
+﻿using HospitalDb.Business;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -7,6 +8,7 @@ namespace HospitalDb.Presentation
     public class Display
     {
         private int closeOperation = 6;
+        private DoctorsClients doctorsDb=new DoctorsClients();
         private void ShowMenu()
         {
             Console.WriteLine(new string('*',40));
@@ -26,12 +28,34 @@ namespace HospitalDb.Presentation
             {
                 ShowMenu();
                 operation = int.Parse(Console.ReadLine());
+                //....
+                switch (operation)
+                {
+                    case 1:
+                        ListAllDoctors();
+                        break;
+                    case 2:
+                        AddDoctor();
+                        break;
+                }
+                //....
 
             } while (operation!=closeOperation);
         }//end input()
         public Display()
         {
             Input();
+        }//end constructor
+        private void ListAllDoctors()
+        {
+            Console.WriteLine(new string('*', 40));
+            Console.WriteLine(new string(' ', 16) + "MENU" + new string(' ', 16));
+            Console.WriteLine(new string('*', 40));
+            var doctors = doctorsDb.GetAllDoctors();
+            foreach (var item in doctors)
+            {
+                Console.WriteLine($"{item.Id} {item.Name} {item.Cabinet} {item.Specialnost}");
+            }
         }
     }
 }
