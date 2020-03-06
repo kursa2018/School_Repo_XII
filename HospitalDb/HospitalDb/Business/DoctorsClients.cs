@@ -31,6 +31,15 @@ namespace HospitalDb.Business
                 hospitalDbContext.SaveChanges();
             }
         }//end AddDoctor()
+        public void AddPatient(Patient patient)
+        {
+            using (hospitalDbContext = new HospitalDbContext())
+            {
+                hospitalDbContext.Patients.Add(patient);
+                hospitalDbContext.SaveChanges();
+            }
+        }
+
         public void UpdateDoctor(Doctor doctor)
         {
             using (hospitalDbContext = new HospitalDbContext())

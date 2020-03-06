@@ -8,7 +8,7 @@ namespace HospitalDb.Presentation
 {
     public class Display
     {
-        private int closeOperation = 6;
+        private int closeOperation = 7;
         private DoctorsClients doctorsDb=new DoctorsClients();
         private void ShowMenu()
         {
@@ -20,7 +20,9 @@ namespace HospitalDb.Presentation
             Console.WriteLine("3. Актуализиране на данни за лекар: ");
             Console.WriteLine("4. Откриване на лекар по Id: ");
             Console.WriteLine("5. Изтриване на лекар по Id: ");
-            Console.WriteLine("6. Изход от програмата");
+            Console.WriteLine(new string('-',40));
+            Console.WriteLine("6.Данни за пациенти");
+            Console.WriteLine("7. Изход от програмата");
         }//end Show()
         public void Input()
         {
@@ -46,6 +48,9 @@ namespace HospitalDb.Presentation
                         break;
                     case 5:
                         DeleteDoctor();
+                        break;
+                    case 6:
+                        AddPatient();
                         break;
                 }
                 //....
@@ -78,6 +83,24 @@ namespace HospitalDb.Presentation
             doctor.Cabinet = int.Parse(Console.ReadLine());
             doctorsDb.AddDoctor(doctor);
         }//end AddDoctors()
+        private void AddPatient()
+        {
+            Patient patient = new Patient();
+            Console.WriteLine("Въведете име на пациент:");
+            patient.Name = Console.ReadLine();
+            Console.WriteLine("ЕГН: ");
+            patient.Egn = Console.ReadLine();
+            Console.WriteLine("Лекуващ лекар ID: ");
+            patient.DoctorId = int.Parse(Console.ReadLine());
+            Console.WriteLine("Лечение(домашно/болнично): ");
+            patient.Lechenie = Console.ReadLine();
+            Console.WriteLine("Потребителска такса: ");
+            patient.Price = double.Parse(Console.ReadLine());
+            Console.WriteLine("Резултат от лечението(оздравял/подължение на лечението): ");
+            patient.Result = Console.ReadLine();
+            //Да се допълни бизнес слоя!!!
+            doctorsDb.AddPatient(patient);
+        }
         private void UpdateDoctor()
         {
             Console.WriteLine("Въведете Id на доктор: ");
