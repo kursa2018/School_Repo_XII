@@ -1,0 +1,11 @@
+C:\Users\Вени\Desktop\papanov@gmail.com\School_Repo_XII\KoliPodNaem\KoliPodNaem\bin\Debug\netcoreapp2.1\KoliPodNaem.deps.json
+C:\Users\Вени\Desktop\papanov@gmail.com\School_Repo_XII\KoliPodNaem\KoliPodNaem\bin\Debug\netcoreapp2.1\KoliPodNaem.runtimeconfig.json
+C:\Users\Вени\Desktop\papanov@gmail.com\School_Repo_XII\KoliPodNaem\KoliPodNaem\bin\Debug\netcoreapp2.1\KoliPodNaem.runtimeconfig.dev.json
+C:\Users\Вени\Desktop\papanov@gmail.com\School_Repo_XII\KoliPodNaem\KoliPodNaem\bin\Debug\netcoreapp2.1\KoliPodNaem.dll
+C:\Users\Вени\Desktop\papanov@gmail.com\School_Repo_XII\KoliPodNaem\KoliPodNaem\obj\Debug\netcoreapp2.1\KoliPodNaem.csprojAssemblyReference.cache
+C:\Users\Вени\Desktop\papanov@gmail.com\School_Repo_XII\KoliPodNaem\KoliPodNaem\obj\Debug\netcoreapp2.1\KoliPodNaem.csproj.CoreCompileInputs.cache
+C:\Users\Вени\Desktop\papanov@gmail.com\School_Repo_XII\KoliPodNaem\KoliPodNaem\obj\Debug\netcoreapp2.1\KoliPodNaem.AssemblyInfoInputs.cache
+C:\Users\Вени\Desktop\papanov@gmail.com\School_Repo_XII\KoliPodNaem\KoliPodNaem\obj\Debug\netcoreapp2.1\KoliPodNaem.AssemblyInfo.cs
+C:\Users\Вени\Desktop\papanov@gmail.com\School_Repo_XII\KoliPodNaem\KoliPodNaem\bin\Debug\netcoreapp2.1\KoliPodNaem.pdb
+C:\Users\Вени\Desktop\papanov@gmail.com\School_Repo_XII\KoliPodNaem\KoliPodNaem\obj\Debug\netcoreapp2.1\KoliPodNaem.dll
+C:\Users\Вени\Desktop\papanov@gmail.com\School_Repo_XII\KoliPodNaem\KoliPodNaem\obj\Debug\netcoreapp2.1\KoliPodNaem.pdb
