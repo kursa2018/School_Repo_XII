@@ -1,2 +1,2 @@
 ﻿# School_Repo_XII
-dddddddddddddddddddospital Db
+1.Курсови проекти 2020
