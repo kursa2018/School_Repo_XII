@@ -1,0 +1,11 @@
+C:\Users\Вени\Desktop\papanov@gmail.com\School_Repo_XII\avtopark\avtopark\bin\Debug\netcoreapp2.1\avtopark.deps.json
+C:\Users\Вени\Desktop\papanov@gmail.com\School_Repo_XII\avtopark\avtopark\bin\Debug\netcoreapp2.1\avtopark.runtimeconfig.json
+C:\Users\Вени\Desktop\papanov@gmail.com\School_Repo_XII\avtopark\avtopark\bin\Debug\netcoreapp2.1\avtopark.runtimeconfig.dev.json
+C:\Users\Вени\Desktop\papanov@gmail.com\School_Repo_XII\avtopark\avtopark\bin\Debug\netcoreapp2.1\avtopark.dll
+C:\Users\Вени\Desktop\papanov@gmail.com\School_Repo_XII\avtopark\avtopark\bin\Debug\netcoreapp2.1\avtopark.pdb
+C:\Users\Вени\Desktop\papanov@gmail.com\School_Repo_XII\avtopark\avtopark\obj\Debug\netcoreapp2.1\avtopark.csprojAssemblyReference.cache
+C:\Users\Вени\Desktop\papanov@gmail.com\School_Repo_XII\avtopark\avtopark\obj\Debug\netcoreapp2.1\avtopark.csproj.CoreCompileInputs.cache
+C:\Users\Вени\Desktop\papanov@gmail.com\School_Repo_XII\avtopark\avtopark\obj\Debug\netcoreapp2.1\avtopark.AssemblyInfoInputs.cache
+C:\Users\Вени\Desktop\papanov@gmail.com\School_Repo_XII\avtopark\avtopark\obj\Debug\netcoreapp2.1\avtopark.AssemblyInfo.cs
+C:\Users\Вени\Desktop\papanov@gmail.com\School_Repo_XII\avtopark\avtopark\obj\Debug\netcoreapp2.1\avtopark.dll
+C:\Users\Вени\Desktop\papanov@gmail.com\School_Repo_XII\avtopark\avtopark\obj\Debug\netcoreapp2.1\avtopark.pdb
