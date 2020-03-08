@@ -19,7 +19,10 @@ namespace KoliPodNaem
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {   //Да се оправи връзката едно-към едно
-           
+            modelBuilder.Entity<Car>()
+                 .HasOne(c => c.Client)
+                 .WithOne(car => car.Car)
+                 .HasForeignKey<Client>(cl => cl.CarNaem);
 
             base.OnModelCreating(modelBuilder);
         }
