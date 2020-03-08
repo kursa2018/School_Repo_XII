@@ -9,3 +9,14 @@ C:\Users\Вени\Desktop\School_Repo_XII\ColaPodNaem\ColaPodNaem\obj\Debug\netc
 C:\Users\Вени\Desktop\School_Repo_XII\ColaPodNaem\ColaPodNaem\bin\Debug\netcoreapp2.1\ColaPodNaem.pdb
 C:\Users\Вени\Desktop\School_Repo_XII\ColaPodNaem\ColaPodNaem\obj\Debug\netcoreapp2.1\ColaPodNaem.dll
 C:\Users\Вени\Desktop\School_Repo_XII\ColaPodNaem\ColaPodNaem\obj\Debug\netcoreapp2.1\ColaPodNaem.pdb
+C:\Users\Вени\Desktop\papanov@gmail.com\School_Repo_XII\ColaPodNaem\ColaPodNaem\bin\Debug\netcoreapp2.1\ColaPodNaem.deps.json
+C:\Users\Вени\Desktop\papanov@gmail.com\School_Repo_XII\ColaPodNaem\ColaPodNaem\bin\Debug\netcoreapp2.1\ColaPodNaem.runtimeconfig.json
+C:\Users\Вени\Desktop\papanov@gmail.com\School_Repo_XII\ColaPodNaem\ColaPodNaem\bin\Debug\netcoreapp2.1\ColaPodNaem.runtimeconfig.dev.json
+C:\Users\Вени\Desktop\papanov@gmail.com\School_Repo_XII\ColaPodNaem\ColaPodNaem\bin\Debug\netcoreapp2.1\ColaPodNaem.dll
+C:\Users\Вени\Desktop\papanov@gmail.com\School_Repo_XII\ColaPodNaem\ColaPodNaem\bin\Debug\netcoreapp2.1\ColaPodNaem.pdb
+C:\Users\Вени\Desktop\papanov@gmail.com\School_Repo_XII\ColaPodNaem\ColaPodNaem\obj\Debug\netcoreapp2.1\ColaPodNaem.csprojAssemblyReference.cache
+C:\Users\Вени\Desktop\papanov@gmail.com\School_Repo_XII\ColaPodNaem\ColaPodNaem\obj\Debug\netcoreapp2.1\ColaPodNaem.csproj.CoreCompileInputs.cache
+C:\Users\Вени\Desktop\papanov@gmail.com\School_Repo_XII\ColaPodNaem\ColaPodNaem\obj\Debug\netcoreapp2.1\ColaPodNaem.AssemblyInfoInputs.cache
+C:\Users\Вени\Desktop\papanov@gmail.com\School_Repo_XII\ColaPodNaem\ColaPodNaem\obj\Debug\netcoreapp2.1\ColaPodNaem.AssemblyInfo.cs
+C:\Users\Вени\Desktop\papanov@gmail.com\School_Repo_XII\ColaPodNaem\ColaPodNaem\obj\Debug\netcoreapp2.1\ColaPodNaem.dll
+C:\Users\Вени\Desktop\papanov@gmail.com\School_Repo_XII\ColaPodNaem\ColaPodNaem\obj\Debug\netcoreapp2.1\ColaPodNaem.pdb

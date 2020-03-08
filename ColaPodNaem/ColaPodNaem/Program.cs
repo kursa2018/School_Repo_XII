@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ColaPodNaem.Presentation;
+using System;
 
 namespace ColaPodNaem
 {
@@ -10,6 +11,8 @@ namespace ColaPodNaem
             //...............
             context.Database.EnsureDeleted();
             context.Database.EnsureCreated();
+            //.............
+            Display display = new Display();
         }
     }
 }
