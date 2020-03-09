@@ -43,6 +43,9 @@ namespace ColaPodNaem.Presentation
                     case 2:
                         AddCar();
                         break;
+                    case 3:
+                        UpdateCar();
+                        break;
                 }
             } while (operation!=closeOperation);
         }//end Input()
@@ -72,5 +75,27 @@ namespace ColaPodNaem.Presentation
             car.PriceNaem = decimal.Parse(Console.ReadLine());
             avtopark.AddCar(car);
         }//end AddCar()
+        public void UpdateCar()
+        {
+            Console.WriteLine("Въведете Id на кола:");
+            string id = Console.ReadLine();
+            Car car = avtopark.GetCar(id);
+            if (car!=null)
+            {
+                Console.WriteLine("Въведете регистрационен номер: ");
+                car.Id = Console.ReadLine();
+                Console.WriteLine("Въведете модел на кола: ");
+                car.Model = Console.ReadLine();
+                Console.WriteLine("Въведете цвят на колата: ");
+                car.Color = Console.ReadLine();
+                Console.WriteLine("Въведете цена под наем: ");
+                car.PriceNaem = decimal.Parse(Console.ReadLine());
+                avtopark.UpdateCar(car);
+            }
+            else
+            {
+                Console.WriteLine("Няма кола с такъв регистрационен номер!");
+            }
+        }//end Update()
     }
 }
