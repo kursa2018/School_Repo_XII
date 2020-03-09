@@ -82,8 +82,7 @@ namespace ColaPodNaem.Presentation
             Car car = avtopark.GetCar(id);
             if (car!=null)
             {
-                Console.WriteLine("Въведете регистрационен номер: ");
-                car.Id = Console.ReadLine();
+              
                 Console.WriteLine("Въведете модел на кола: ");
                 car.Model = Console.ReadLine();
                 Console.WriteLine("Въведете цвят на колата: ");
