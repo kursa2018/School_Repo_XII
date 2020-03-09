@@ -39,7 +39,7 @@ namespace ColaPodNaem.Business
                 var item = avtopark.Cars.Find(car.Id);
                 if (item!=null)
                 {
-                    avtopark.Entry(item).CurrentValues.SetValues(item);
+                    avtopark.Entry(item).CurrentValues.SetValues(car);
                     avtopark.SaveChanges();
                 }
             }

@@ -77,7 +77,7 @@ namespace ColaPodNaem.Presentation
         }//end AddCar()
         public void UpdateCar()
         {
-            Console.WriteLine("Въведете Id на кола:");
+            Console.WriteLine("Променете данни за кола с рег. номер Id:");
             string id = Console.ReadLine();
             Car car = avtopark.GetCar(id);
             if (car!=null)
