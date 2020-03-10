@@ -13,7 +13,7 @@ namespace ColaPodNaem
             context.Database.EnsureCreated();
             //.............
             //***********************
-            // Fetch() и Delete() -> за кола
+           
             // Процедурите за обработка на клиенти->Add(),Delete(),Fetch(),Update()
             //************************
             Display display = new Display();

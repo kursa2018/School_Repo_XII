@@ -46,6 +46,12 @@ namespace ColaPodNaem.Presentation
                     case 3:
                         UpdateCar();
                         break;
+                    case 4:
+                        FetchCar();
+                        break;
+                    case 5:
+                        DeleteCar();
+                        break;
                 }
             } while (operation!=closeOperation);
         }//end Input()
@@ -96,5 +102,27 @@ namespace ColaPodNaem.Presentation
                 Console.WriteLine("Няма кола с такъв регистрационен номер!");
             }
         }//end Update()
+        public void FetchCar()
+        {
+            Console.WriteLine("Въведете търсен автомобил по Id: ");
+            string Id = Console.ReadLine();
+            Car car = avtopark.GetCar(Id);
+            if (car!=null)
+            {
+                Console.WriteLine(new string('*',40));
+                Console.WriteLine("ID: "+car.Id);
+                Console.WriteLine("Модел: "+car.Model);
+                Console.WriteLine("Цвят: "+car.Color);
+                Console.WriteLine("Цена под наем: {0:f2}",car.PriceNaem);
+                Console.WriteLine(new string('*', 40));
+            }
+        }//end Fetch()
+        public void DeleteCar()
+        {
+            Console.WriteLine("Въведете Id на кола за изтриване: ");
+            string Id = Console.ReadLine();
+            avtopark.DeleteCar(Id);
+            Console.WriteLine("Колата е изтрита:");
+        }//end DeleteCar()
     }
 }
