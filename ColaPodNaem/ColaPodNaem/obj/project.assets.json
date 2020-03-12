@@ -5609,23 +5609,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Вени\\.nuget\\packages\\": {},
+    "C:\\Users\\Stef\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Вени\\Desktop\\papanov@gmail.com\\School_Repo_XII\\ColaPodNaem\\ColaPodNaem\\ColaPodNaem.csproj",
+      "projectUniqueName": "C:\\Users\\Stef\\Desktop\\papanov_IT\\School_Repo_XII\\ColaPodNaem\\ColaPodNaem\\ColaPodNaem.csproj",
       "projectName": "ColaPodNaem",
-      "projectPath": "C:\\Users\\Вени\\Desktop\\papanov@gmail.com\\School_Repo_XII\\ColaPodNaem\\ColaPodNaem\\ColaPodNaem.csproj",
-      "packagesPath": "C:\\Users\\Вени\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Вени\\Desktop\\papanov@gmail.com\\School_Repo_XII\\ColaPodNaem\\ColaPodNaem\\obj\\",
+      "projectPath": "C:\\Users\\Stef\\Desktop\\papanov_IT\\School_Repo_XII\\ColaPodNaem\\ColaPodNaem\\ColaPodNaem.csproj",
+      "packagesPath": "C:\\Users\\Stef\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Stef\\Desktop\\papanov_IT\\School_Repo_XII\\ColaPodNaem\\ColaPodNaem\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Вени\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Stef\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
