@@ -20,7 +20,14 @@ namespace Katalogna_targovia
             c1.Tel = "5-1234";
             context.Add(c1);
             context.SaveChanges();
-
+            //........................
+            Client c2 = new Client();
+            c2.Name = "Георги Иванов";
+            c2.Egn = "6608666645";
+            c2.Adress = "Кристал 12";
+            c2.Tel = "5-4589";
+            context.Add(c2);
+            context.SaveChanges();
         }
     }
 }
