@@ -5610,23 +5610,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Stef\\.nuget\\packages\\": {},
+    "C:\\Users\\stef\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Stef\\Desktop\\papanov_IT\\School_Repo_XII\\StokiPoKatalog\\StokiPoKatalog\\StokiPoKatalog.csproj",
+      "projectUniqueName": "C:\\Users\\stef\\Desktop\\Repo_XII_Klass\\School_Repo_XII\\StokiPoKatalog\\StokiPoKatalog\\StokiPoKatalog.csproj",
       "projectName": "StokiPoKatalog",
-      "projectPath": "C:\\Users\\Stef\\Desktop\\papanov_IT\\School_Repo_XII\\StokiPoKatalog\\StokiPoKatalog\\StokiPoKatalog.csproj",
-      "packagesPath": "C:\\Users\\Stef\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Stef\\Desktop\\papanov_IT\\School_Repo_XII\\StokiPoKatalog\\StokiPoKatalog\\obj\\",
+      "projectPath": "C:\\Users\\stef\\Desktop\\Repo_XII_Klass\\School_Repo_XII\\StokiPoKatalog\\StokiPoKatalog\\StokiPoKatalog.csproj",
+      "packagesPath": "C:\\Users\\stef\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\stef\\Desktop\\Repo_XII_Klass\\School_Repo_XII\\StokiPoKatalog\\StokiPoKatalog\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Stef\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\stef\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

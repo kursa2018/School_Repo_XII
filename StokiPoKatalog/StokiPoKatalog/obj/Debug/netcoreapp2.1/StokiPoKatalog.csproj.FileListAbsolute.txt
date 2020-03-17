@@ -9,3 +9,14 @@ C:\Users\Stef\Desktop\papanov_IT\School_Repo_XII\StokiPoKatalog\StokiPoKatalog\o
 C:\Users\Stef\Desktop\papanov_IT\School_Repo_XII\StokiPoKatalog\StokiPoKatalog\bin\Debug\netcoreapp2.1\StokiPoKatalog.pdb
 C:\Users\Stef\Desktop\papanov_IT\School_Repo_XII\StokiPoKatalog\StokiPoKatalog\obj\Debug\netcoreapp2.1\StokiPoKatalog.dll
 C:\Users\Stef\Desktop\papanov_IT\School_Repo_XII\StokiPoKatalog\StokiPoKatalog\obj\Debug\netcoreapp2.1\StokiPoKatalog.pdb
+C:\Users\stef\Desktop\Repo_XII_Klass\School_Repo_XII\StokiPoKatalog\StokiPoKatalog\bin\Debug\netcoreapp2.1\StokiPoKatalog.deps.json
+C:\Users\stef\Desktop\Repo_XII_Klass\School_Repo_XII\StokiPoKatalog\StokiPoKatalog\bin\Debug\netcoreapp2.1\StokiPoKatalog.runtimeconfig.json
+C:\Users\stef\Desktop\Repo_XII_Klass\School_Repo_XII\StokiPoKatalog\StokiPoKatalog\bin\Debug\netcoreapp2.1\StokiPoKatalog.runtimeconfig.dev.json
+C:\Users\stef\Desktop\Repo_XII_Klass\School_Repo_XII\StokiPoKatalog\StokiPoKatalog\bin\Debug\netcoreapp2.1\StokiPoKatalog.dll
+C:\Users\stef\Desktop\Repo_XII_Klass\School_Repo_XII\StokiPoKatalog\StokiPoKatalog\bin\Debug\netcoreapp2.1\StokiPoKatalog.pdb
+C:\Users\stef\Desktop\Repo_XII_Klass\School_Repo_XII\StokiPoKatalog\StokiPoKatalog\obj\Debug\netcoreapp2.1\StokiPoKatalog.csprojAssemblyReference.cache
+C:\Users\stef\Desktop\Repo_XII_Klass\School_Repo_XII\StokiPoKatalog\StokiPoKatalog\obj\Debug\netcoreapp2.1\StokiPoKatalog.csproj.CoreCompileInputs.cache
+C:\Users\stef\Desktop\Repo_XII_Klass\School_Repo_XII\StokiPoKatalog\StokiPoKatalog\obj\Debug\netcoreapp2.1\StokiPoKatalog.AssemblyInfoInputs.cache
+C:\Users\stef\Desktop\Repo_XII_Klass\School_Repo_XII\StokiPoKatalog\StokiPoKatalog\obj\Debug\netcoreapp2.1\StokiPoKatalog.AssemblyInfo.cs
+C:\Users\stef\Desktop\Repo_XII_Klass\School_Repo_XII\StokiPoKatalog\StokiPoKatalog\obj\Debug\netcoreapp2.1\StokiPoKatalog.dll
+C:\Users\stef\Desktop\Repo_XII_Klass\School_Repo_XII\StokiPoKatalog\StokiPoKatalog\obj\Debug\netcoreapp2.1\StokiPoKatalog.pdb

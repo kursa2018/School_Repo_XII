@@ -17,7 +17,7 @@ namespace StokiPoKatalog.Models
         public double Price { get; set; }
         [Required]
         public string Clients { get; set; }
-        [Required]
+      
         public int Distributors { get; set; }
         [Required]
         public DateTime Data { get; set; }
