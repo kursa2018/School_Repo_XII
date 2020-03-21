@@ -1,4 +1,5 @@
 ﻿using StokiPoKatalog.Models;
+using StokiPoKatalog.Presentation;
 using System;
 
 namespace StokiPoKatalog
@@ -10,8 +11,8 @@ namespace StokiPoKatalog
             var context = new CatalogDbContext();
             context.Database.EnsureDeleted();
             context.Database.EnsureCreated();
-            //..........
-           
+            //Създаваме инстанция на класа Display
+            Display display = new Display();        
         }
     }
 }
