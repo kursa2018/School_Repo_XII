@@ -42,7 +42,7 @@ namespace StokiPoKatalog.Presentation
                         AddClient();
                         break;
                     case 3:
-                        //UpdateClient();
+                        UpdateClient();
                         break;
                     case 4:
                         //FetchClient();
@@ -81,6 +81,28 @@ namespace StokiPoKatalog.Presentation
             Console.WriteLine("Въведете телефон на клиента: ");
             client.Tel = Console.ReadLine();
             productBusines.AddClient(client);
-        }
+        }//end AddClient()
+        public void UpdateClient()
+        {
+            Console.WriteLine("Въведете ЕГН на клиент: ");
+            string egn = Console.ReadLine();
+            Client client = productBusines.GetClient(egn);
+            if (client!=null)
+            {
+                Console.WriteLine("Въведете име на клиент: ");
+                client.Name = Console.ReadLine();
+                Console.WriteLine("Въведете ЕГН на клиент: ");
+                client.Egn = Console.ReadLine();
+                Console.WriteLine("Въведете адрес на клиент: ");
+                client.Adress = Console.ReadLine();
+                Console.WriteLine("Въведете телефон на клиент: ");
+                client.Tel = Console.ReadLine();
+                productBusines.UpdateClient(client);
+            }
+            else
+            {
+                Console.WriteLine($"Клиент с посоченото ЕГН: {egn} не съществува!");
+            }
+        }//end UpdateClient()
     }
 }
