@@ -45,10 +45,10 @@ namespace StokiPoKatalog.Presentation
                         UpdateClient();
                         break;
                     case 4:
-                        //FetchClient();
+                        FetchClient();
                         break;
                     case 5:
-                        //DeleteClient();
+                        DeleteClient();
                         break;
                                           
                 }
@@ -91,8 +91,7 @@ namespace StokiPoKatalog.Presentation
             {
                 Console.WriteLine("Въведете име на клиент: ");
                 client.Name = Console.ReadLine();
-                Console.WriteLine("Въведете ЕГН на клиент: ");
-                client.Egn = Console.ReadLine();
+               //При промяна на данни ЕГН на клиента не трябва да се въвежда!
                 Console.WriteLine("Въведете адрес на клиент: ");
                 client.Adress = Console.ReadLine();
                 Console.WriteLine("Въведете телефон на клиент: ");
@@ -104,5 +103,28 @@ namespace StokiPoKatalog.Presentation
                 Console.WriteLine($"Клиент с посоченото ЕГН: {egn} не съществува!");
             }
         }//end UpdateClient()
+
+        public void FetchClient()
+        {
+            Console.WriteLine("Моля въведете ЕГН на търсен клиент:");
+            string egn = Console.ReadLine();
+            Client client = productBusines.GetClient(egn);
+            if (client!=null)
+            {
+                Console.WriteLine(new string('*',40));
+                Console.WriteLine("Име: "+client.Name);
+                Console.WriteLine("ЕГН: "+client.Egn);
+                Console.WriteLine("Адрес на клиента: "+client.Adress);
+                Console.WriteLine("Телефон: "+client.Tel);
+                Console.WriteLine(new string('*', 40));
+            }
+        }//end Fetch()
+        public void DeleteClient()
+        {
+            Console.WriteLine("Въведете ЕГН: ");
+            string egn = Console.ReadLine();
+            productBusines.DeleteClient(egn);
+            Console.WriteLine("Клиентът е изтрит от БД!");
+        }
     }
 }
