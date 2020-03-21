@@ -31,8 +31,8 @@ namespace StokiPoKatalog
                 .HasForeignKey(cd => cd.Distributors);
             base.OnModelCreating(modelBuilder);
         }
-        DbSet<Client>Clients{get;set;}
-        DbSet<Product> Products { get; set; }
-        DbSet<Distributor> Distributors { get; set; }
+        public DbSet<Client>Clients{get;set;}
+        public DbSet<Product> Products { get; set; }
+        public DbSet<Distributor> Distributors { get; set; }
     }
 }
