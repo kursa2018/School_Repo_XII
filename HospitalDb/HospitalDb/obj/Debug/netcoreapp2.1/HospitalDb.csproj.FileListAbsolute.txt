@@ -20,3 +20,14 @@ C:\Users\stef\Desktop\KursovProekt\School_Repo_XII\HospitalDb\HospitalDb\obj\Deb
 C:\Users\stef\Desktop\KursovProekt\School_Repo_XII\HospitalDb\HospitalDb\obj\Debug\netcoreapp2.1\HospitalDb.AssemblyInfo.cs
 C:\Users\stef\Desktop\KursovProekt\School_Repo_XII\HospitalDb\HospitalDb\obj\Debug\netcoreapp2.1\HospitalDb.dll
 C:\Users\stef\Desktop\KursovProekt\School_Repo_XII\HospitalDb\HospitalDb\obj\Debug\netcoreapp2.1\HospitalDb.pdb
+C:\Users\Stef\Desktop\papanov_IT\School_Repo_XII\HospitalDb\HospitalDb\bin\Debug\netcoreapp2.1\HospitalDb.deps.json
+C:\Users\Stef\Desktop\papanov_IT\School_Repo_XII\HospitalDb\HospitalDb\bin\Debug\netcoreapp2.1\HospitalDb.runtimeconfig.json
+C:\Users\Stef\Desktop\papanov_IT\School_Repo_XII\HospitalDb\HospitalDb\bin\Debug\netcoreapp2.1\HospitalDb.runtimeconfig.dev.json
+C:\Users\Stef\Desktop\papanov_IT\School_Repo_XII\HospitalDb\HospitalDb\bin\Debug\netcoreapp2.1\HospitalDb.dll
+C:\Users\Stef\Desktop\papanov_IT\School_Repo_XII\HospitalDb\HospitalDb\bin\Debug\netcoreapp2.1\HospitalDb.pdb
+C:\Users\Stef\Desktop\papanov_IT\School_Repo_XII\HospitalDb\HospitalDb\obj\Debug\netcoreapp2.1\HospitalDb.csprojAssemblyReference.cache
+C:\Users\Stef\Desktop\papanov_IT\School_Repo_XII\HospitalDb\HospitalDb\obj\Debug\netcoreapp2.1\HospitalDb.csproj.CoreCompileInputs.cache
+C:\Users\Stef\Desktop\papanov_IT\School_Repo_XII\HospitalDb\HospitalDb\obj\Debug\netcoreapp2.1\HospitalDb.AssemblyInfoInputs.cache
+C:\Users\Stef\Desktop\papanov_IT\School_Repo_XII\HospitalDb\HospitalDb\obj\Debug\netcoreapp2.1\HospitalDb.AssemblyInfo.cs
+C:\Users\Stef\Desktop\papanov_IT\School_Repo_XII\HospitalDb\HospitalDb\obj\Debug\netcoreapp2.1\HospitalDb.dll
+C:\Users\Stef\Desktop\papanov_IT\School_Repo_XII\HospitalDb\HospitalDb\obj\Debug\netcoreapp2.1\HospitalDb.pdb
