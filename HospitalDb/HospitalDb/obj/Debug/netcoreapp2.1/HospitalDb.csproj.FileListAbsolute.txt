@@ -41,3 +41,15 @@ C:\Users\308_Teachers\Desktop\ProjectGit\School_Repo_XII\HospitalDb\HospitalDb\o
 C:\Users\308_Teachers\Desktop\ProjectGit\School_Repo_XII\HospitalDb\HospitalDb\obj\Debug\netcoreapp2.1\HospitalDb.AssemblyInfo.cs
 C:\Users\308_Teachers\Desktop\ProjectGit\School_Repo_XII\HospitalDb\HospitalDb\obj\Debug\netcoreapp2.1\HospitalDb.dll
 C:\Users\308_Teachers\Desktop\ProjectGit\School_Repo_XII\HospitalDb\HospitalDb\obj\Debug\netcoreapp2.1\HospitalDb.pdb
+C:\Users\АлишАлишов\Desktop\GIT Projects\School_Repo_XII\HospitalDb\HospitalDb\bin\Debug\netcoreapp2.1\HospitalDb.deps.json
+C:\Users\АлишАлишов\Desktop\GIT Projects\School_Repo_XII\HospitalDb\HospitalDb\bin\Debug\netcoreapp2.1\HospitalDb.runtimeconfig.json
+C:\Users\АлишАлишов\Desktop\GIT Projects\School_Repo_XII\HospitalDb\HospitalDb\bin\Debug\netcoreapp2.1\HospitalDb.runtimeconfig.dev.json
+C:\Users\АлишАлишов\Desktop\GIT Projects\School_Repo_XII\HospitalDb\HospitalDb\bin\Debug\netcoreapp2.1\HospitalDb.dll
+C:\Users\АлишАлишов\Desktop\GIT Projects\School_Repo_XII\HospitalDb\HospitalDb\bin\Debug\netcoreapp2.1\HospitalDb.pdb
+C:\Users\АлишАлишов\Desktop\GIT Projects\School_Repo_XII\HospitalDb\HospitalDb\obj\Debug\netcoreapp2.1\HospitalDb.csprojAssemblyReference.cache
+C:\Users\АлишАлишов\Desktop\GIT Projects\School_Repo_XII\HospitalDb\HospitalDb\obj\Debug\netcoreapp2.1\HospitalDb.csproj.CoreCompileInputs.cache
+C:\Users\АлишАлишов\Desktop\GIT Projects\School_Repo_XII\HospitalDb\HospitalDb\obj\Debug\netcoreapp2.1\HospitalDb.AssemblyInfoInputs.cache
+C:\Users\АлишАлишов\Desktop\GIT Projects\School_Repo_XII\HospitalDb\HospitalDb\obj\Debug\netcoreapp2.1\HospitalDb.AssemblyInfo.cs
+C:\Users\АлишАлишов\Desktop\GIT Projects\School_Repo_XII\HospitalDb\HospitalDb\obj\Debug\netcoreapp2.1\HospitalDb.dll
+C:\Users\АлишАлишов\Desktop\GIT Projects\School_Repo_XII\HospitalDb\HospitalDb\obj\Debug\netcoreapp2.1\HospitalDb.pdb
+C:\Users\АлишАлишов\Desktop\GIT Projects\School_Repo_XII\HospitalDb\HospitalDb\obj\Debug\netcoreapp2.1\HospitalDb.genruntimeconfig.cache

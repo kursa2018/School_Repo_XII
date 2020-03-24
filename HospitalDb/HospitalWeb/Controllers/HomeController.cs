@@ -13,33 +13,23 @@ namespace HospitalWeb.Controllers
 {
     public class HomeController : Controller
     {
-        public int Doctors { get; private set; }
-
         public IActionResult Index()
         {
-           
-
             return View();
         }
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page.";
 
-            DoctorsClients d = new DoctorsClients();
-            List<Doctor> doctors = d.GetAllDoctors();
-
-            return View(doctors);
+            return View();
         }
 
-        public IActionResult Patient()
-        {
-            
-            DoctorsClients d = new DoctorsClients();
-            List<Doctor> doctors = d.GetAllDoctors();
-            List<Patient> patients =doctors.SelectMany(x=>x.Patients).ToList();
-            return View(patients);
-        }
+        //public IActionResult Patient()
+        //{
+
+        //    List<Patient> patients = hospitalDb.Doctors.SelectMany(x => x.Patients).ToList();
+        //    return View(patients);
+        //}
 
         public IActionResult Contact()
         {

@@ -18,8 +18,6 @@ namespace HospitalWeb
 {
     public class Startup
     {
-        
-
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -44,9 +42,8 @@ namespace HospitalWeb
                 .AddEntityFrameworkStores<ApplicationDbContext>();
 
             //--Добавяне на контекста HospitalDbContext
-            //services.AddDbContext<HospitalDbContext>(options =>
-            //    options.UseSqlServer(
-            //        Configuration.GetConnectionString(Connection.ConnectionString)));
+            services.AddDbContext<HospitalDbContext>(options =>
+                options.UseSqlServer(Connection.ConnectionString));
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
         }

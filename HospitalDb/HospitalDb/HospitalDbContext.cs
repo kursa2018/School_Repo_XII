@@ -8,6 +8,17 @@ namespace HospitalDb
 {
     public class HospitalDbContext:DbContext
     {
+        //За Web App
+        public HospitalDbContext(DbContextOptions<HospitalDbContext> options)
+        : base(options)
+        {
+
+        }
+        //За Console App
+        public HospitalDbContext()
+        {
+
+        }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
