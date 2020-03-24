@@ -11,7 +11,7 @@ namespace HospitalWeb.Controllers
 {
     public class DoctorController : Controller
     {
-        private HospitalDbContext hospitalDb;
+        private readonly HospitalDbContext hospitalDb;
         public DoctorController(HospitalDbContext hospitalDb)
         {
             this.hospitalDb = hospitalDb;

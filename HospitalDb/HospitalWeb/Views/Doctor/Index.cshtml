@@ -12,6 +12,7 @@
 <table class="table table-bordered table-hover">
     <thead>
         <tr>
+            <th>Номер НЗОК</th>
             <th>Име</th>
             <th>Специалност</th>
             <th>Кабинет</th>
@@ -22,6 +23,7 @@
         @foreach (var d in Model)
         {
         <tr>
+            <td>@d.Id</td>
             <td>@d.Name</td>
             <td>@d.Specialnost</td>
             <td>@d.Cabinet</td>

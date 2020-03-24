@@ -124,3 +124,5 @@ C:\Users\Stef\Desktop\papanov_IT\School_Repo_XII\HospitalDb\HospitalWeb\obj\Debu
 C:\Users\Stef\Desktop\papanov_IT\School_Repo_XII\HospitalDb\HospitalWeb\obj\Debug\netcoreapp2.1\HospitalWeb.csproj.CopyComplete
 C:\Users\Stef\Desktop\papanov_IT\School_Repo_XII\HospitalDb\HospitalWeb\obj\Debug\netcoreapp2.1\HospitalWeb.dll
 C:\Users\Stef\Desktop\papanov_IT\School_Repo_XII\HospitalDb\HospitalWeb\obj\Debug\netcoreapp2.1\HospitalWeb.pdb
+C:\Users\АлишАлишов\Desktop\GIT Projects\School_Repo_XII\HospitalDb\HospitalWeb\obj\Debug\netcoreapp2.1\Razor\Views\Patient\Create.cshtml.g.cs
+C:\Users\АлишАлишов\Desktop\GIT Projects\School_Repo_XII\HospitalDb\HospitalWeb\obj\Debug\netcoreapp2.1\Razor\Views\Patient\Index.cshtml.g.cs
