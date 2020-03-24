@@ -66,7 +66,7 @@ using HospitalDb.Models;
             WriteLiteral("\r\n\r\n<h1>\r\n    Списък с лекари\r\n</h1>\r\n<p>\r\n    ");
             EndContext();
             BeginContext(114, 39, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0032ac8681ac4d8099066e1c55c1409d", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "581126ccf94449d78dc7d2821a0ea60f", async() => {
                 BeginContext(137, 12, true);
                 WriteLiteral("Добави лекар");
                 EndContext();
@@ -150,7 +150,7 @@ using HospitalDb.Models;
             WriteLiteral("</td>\r\n            <td>\r\n                ");
             EndContext();
             BeginContext(653, 59, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2a536d1993aa4223a8180c9b8a534f8a", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8826c2ca90794fe7a35dd815f9a2c8a4", async() => {
                 BeginContext(698, 10, true);
                 WriteLiteral("Информация");
                 EndContext();
@@ -185,7 +185,7 @@ using HospitalDb.Models;
             WriteLiteral(" |\r\n                ");
             EndContext();
             BeginContext(732, 55, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "55a572f060ec416d9af635324e875896", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "214c616b82b4456eae4aece016f42da5", async() => {
                 BeginContext(774, 9, true);
                 WriteLiteral("Редатирай");
                 EndContext();
@@ -220,7 +220,7 @@ using HospitalDb.Models;
             WriteLiteral(" |\r\n                ");
             EndContext();
             BeginContext(807, 54, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "300f6c8ce9cf4658b6d4097c3b3002dc", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "eff27f572e5940f081ab6245c74e4619", async() => {
                 BeginContext(851, 6, true);
                 WriteLiteral("Изтрий");
                 EndContext();

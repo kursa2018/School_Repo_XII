@@ -82,10 +82,10 @@ C:\Users\АлишАлишов\Desktop\GIT Projects\School_Repo_XII\HospitalDb\Ho
 C:\Users\АлишАлишов\Desktop\GIT Projects\School_Repo_XII\HospitalDb\HospitalWeb\obj\Debug\netcoreapp2.1\Razor\Views\Doctor\Create.cshtml.g.cs
 C:\Users\АлишАлишов\Desktop\GIT Projects\School_Repo_XII\HospitalDb\HospitalWeb\obj\Debug\netcoreapp2.1\Razor\Views\Doctor\Edit.cshtml.g.cs
 C:\Users\АлишАлишов\Desktop\GIT Projects\School_Repo_XII\HospitalDb\HospitalWeb\obj\Debug\netcoreapp2.1\Razor\Views\Doctor\Details.cshtml.g.cs
-<<<<<<< HEAD
+
 C:\Users\АлишАлишов\Desktop\GIT Projects\School_Repo_XII\HospitalDb\HospitalWeb\obj\Debug\netcoreapp2.1\Razor\Views\Patient\Create.cshtml.g.cs
 C:\Users\АлишАлишов\Desktop\GIT Projects\School_Repo_XII\HospitalDb\HospitalWeb\obj\Debug\netcoreapp2.1\Razor\Views\Patient\Index.cshtml.g.cs
-=======
+
 C:\Users\Stef\Desktop\papanov_IT\School_Repo_XII\HospitalDb\HospitalWeb\bin\Debug\netcoreapp2.1\HospitalWeb.deps.json
 C:\Users\Stef\Desktop\papanov_IT\School_Repo_XII\HospitalDb\HospitalWeb\bin\Debug\netcoreapp2.1\HospitalWeb.runtimeconfig.json
 C:\Users\Stef\Desktop\papanov_IT\School_Repo_XII\HospitalDb\HospitalWeb\bin\Debug\netcoreapp2.1\HospitalWeb.runtimeconfig.dev.json
@@ -128,4 +128,6 @@ C:\Users\Stef\Desktop\papanov_IT\School_Repo_XII\HospitalDb\HospitalWeb\obj\Debu
 C:\Users\Stef\Desktop\papanov_IT\School_Repo_XII\HospitalDb\HospitalWeb\obj\Debug\netcoreapp2.1\HospitalWeb.csproj.CopyComplete
 C:\Users\Stef\Desktop\papanov_IT\School_Repo_XII\HospitalDb\HospitalWeb\obj\Debug\netcoreapp2.1\HospitalWeb.dll
 C:\Users\Stef\Desktop\papanov_IT\School_Repo_XII\HospitalDb\HospitalWeb\obj\Debug\netcoreapp2.1\HospitalWeb.pdb
->>>>>>> aaafe81034c67d44430cec085a6b574dfe6c21fd
+
+C:\Users\АлишАлишов\Desktop\GIT Projects\School_Repo_XII\HospitalDb\HospitalWeb\obj\Debug\netcoreapp2.1\Razor\Views\Patient\Create.cshtml.g.cs
+C:\Users\АлишАлишов\Desktop\GIT Projects\School_Repo_XII\HospitalDb\HospitalWeb\obj\Debug\netcoreapp2.1\Razor\Views\Patient\Index.cshtml.g.cs
