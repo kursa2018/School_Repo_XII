@@ -6,6 +6,6 @@ namespace HospitalDb
 {
     public static class Connection
     {
-        public const string ConnectionString = @"Server=DESKTOP\SQLEXPRESS;Database=HospitalDb;Integrated Security=true";
+        public const string ConnectionString = @"Server=DESKTOP-RG79DFT\SQLEXPRESS;Database=HospitalDb;Integrated Security=true";
     }
 }
