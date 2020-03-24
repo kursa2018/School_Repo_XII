@@ -1,0 +1,45 @@
+﻿@model PatientViewModel
+
+<h2>Списък с пациенти</h2>
+<p>
+    <a asp-action="Create">Добави пациент</a>
+</p>
+<table class="table table-bordered table-hover">
+    <thead>
+        <tr>
+            <th>Име</th>
+            <th>ЕГН</th>
+            <th>Лекуващ лекар</th>
+            <th>Лечение</th>
+            <th>Резултат</th>
+            <th>Цена</th>
+            <th>Опции</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var p in Model.patients)
+        {
+            <tr>
+                @{ Doctor d = Model.doctors.FirstOrDefault(x => x.Id == p.DoctorId);}
+                <td>@p.Name</td>
+                <td>@p.Egn</td>
+                @if (d != null)
+                {                    
+                    <td>@d.Name</td>
+                }
+                else
+                {
+                    <td>-</td>
+                }
+                <td>@p.Lechenie</td>
+                <td>@p.Result</td>
+                <td>@p.Price</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@p.DoctorId">Информация</a> |
+                    <a asp-action="Edit" asp-route-id="@p.DoctorId">Редатирай</a> |
+                    <a asp-action="Delete" asp-route-id="@p.DoctorId">Изтрий</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
