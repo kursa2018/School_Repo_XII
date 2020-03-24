@@ -82,3 +82,5 @@ C:\Users\АлишАлишов\Desktop\GIT Projects\School_Repo_XII\HospitalDb\Ho
 C:\Users\АлишАлишов\Desktop\GIT Projects\School_Repo_XII\HospitalDb\HospitalWeb\obj\Debug\netcoreapp2.1\Razor\Views\Doctor\Create.cshtml.g.cs
 C:\Users\АлишАлишов\Desktop\GIT Projects\School_Repo_XII\HospitalDb\HospitalWeb\obj\Debug\netcoreapp2.1\Razor\Views\Doctor\Edit.cshtml.g.cs
 C:\Users\АлишАлишов\Desktop\GIT Projects\School_Repo_XII\HospitalDb\HospitalWeb\obj\Debug\netcoreapp2.1\Razor\Views\Doctor\Details.cshtml.g.cs
+C:\Users\АлишАлишов\Desktop\GIT Projects\School_Repo_XII\HospitalDb\HospitalWeb\obj\Debug\netcoreapp2.1\Razor\Views\Patient\Create.cshtml.g.cs
+C:\Users\АлишАлишов\Desktop\GIT Projects\School_Repo_XII\HospitalDb\HospitalWeb\obj\Debug\netcoreapp2.1\Razor\Views\Patient\Index.cshtml.g.cs
