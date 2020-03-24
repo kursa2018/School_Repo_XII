@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Z4JIKqil7dfYL5uJAuJ8eeifCCUaC6x1L4+E6SNM07+tRWjuHgnE4fUreVmTAY4GA/1iKktIllL7vHh3GFJg/A==",
+  "dgSpecHash": "Zsjp9zJ15LLbClsPP2Oi/SROFATgP5J6oHKtJ5gTKyyOx91kfKKY3B+HaDCZvJeV4vlfs8FrStN73auZ/LIFyg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\АлишАлишов\\Desktop\\GIT Projects\\School_Repo_XII\\HospitalDb\\HospitalDb\\HospitalDb.csproj",
+  "projectFilePath": "C:\\Users\\АлишАлишов\\Documents\\GitHub\\School_Repo_XII\\HospitalDb\\HospitalDb\\HospitalDb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\АлишАлишов\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\АлишАлишов\\.nuget\\packages\\microsoft.entityframeworkcore\\2.1.1\\microsoft.entityframeworkcore.2.1.1.nupkg.sha512",

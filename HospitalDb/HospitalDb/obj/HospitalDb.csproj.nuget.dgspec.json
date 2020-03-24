@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\АлишАлишов\\Desktop\\GIT Projects\\School_Repo_XII\\HospitalDb\\HospitalDb\\HospitalDb.csproj": {}
+    "C:\\Users\\АлишАлишов\\Documents\\GitHub\\School_Repo_XII\\HospitalDb\\HospitalDb\\HospitalDb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\АлишАлишов\\Desktop\\GIT Projects\\School_Repo_XII\\HospitalDb\\HospitalDb\\HospitalDb.csproj": {
+    "C:\\Users\\АлишАлишов\\Documents\\GitHub\\School_Repo_XII\\HospitalDb\\HospitalDb\\HospitalDb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\АлишАлишов\\Desktop\\GIT Projects\\School_Repo_XII\\HospitalDb\\HospitalDb\\HospitalDb.csproj",
+        "projectUniqueName": "C:\\Users\\АлишАлишов\\Documents\\GitHub\\School_Repo_XII\\HospitalDb\\HospitalDb\\HospitalDb.csproj",
         "projectName": "HospitalDb",
-        "projectPath": "C:\\Users\\АлишАлишов\\Desktop\\GIT Projects\\School_Repo_XII\\HospitalDb\\HospitalDb\\HospitalDb.csproj",
+        "projectPath": "C:\\Users\\АлишАлишов\\Documents\\GitHub\\School_Repo_XII\\HospitalDb\\HospitalDb\\HospitalDb.csproj",
         "packagesPath": "C:\\Users\\АлишАлишов\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\АлишАлишов\\Desktop\\GIT Projects\\School_Repo_XII\\HospitalDb\\HospitalDb\\obj\\",
+        "outputPath": "C:\\Users\\АлишАлишов\\Documents\\GitHub\\School_Repo_XII\\HospitalDb\\HospitalDb\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\АлишАлишов\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JofxCU/5OWv+DMZ9k/4qd4KW/KiS15feUMiL0uQR30QB73Aw2vjBnXdTLHp97KU4QoecI/ZMCHN5McVWDRzWzg==",
+  "dgSpecHash": "DxdHLDpSCcItbm0ZRNFQG73Sbjo7quMQaXGEHeALpY7vYn/33RgwRrgZw8pYk1UTcvc9uf31fzdzI/H1P6dEYQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\АлишАлишов\\Desktop\\GIT Projects\\School_Repo_XII\\HospitalDb\\HospitalWeb\\HospitalWeb.csproj",
+  "projectFilePath": "C:\\Users\\АлишАлишов\\Documents\\GitHub\\School_Repo_XII\\HospitalDb\\HospitalWeb\\HospitalWeb.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\АлишАлишов\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Users\\АлишАлишов\\.nuget\\packages\\microsoft.aspnetcore\\2.1.1\\microsoft.aspnetcore.2.1.1.nupkg.sha512",
