@@ -1,0 +1,31 @@
+﻿
+@using HospitalDb.Models
+@using System.Linq
+@model List<Patient>
+
+
+<h2>@ViewData["Title"]</h2>
+<h3>@ViewData["Message"]</h3>
+<h1>
+    Списък с пациенти
+</h1>
+<table class="table table-bordered table-hover">
+    <thead>
+        <tr>
+            <th>Име</th>
+            <th>Лечение</th>
+            <th>Цена</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var p in Model)
+        {
+            <tr>
+                <td>@p.Name</td>
+                <td>@p.Lechenie</td>
+                <td>@p.Price</td>
+            </tr>
+        }
+    </tbody>
+</table>
+<p>Use this area to provide additional information.</p>
