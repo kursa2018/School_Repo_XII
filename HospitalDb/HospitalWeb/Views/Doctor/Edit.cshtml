@@ -1,0 +1,45 @@
+﻿@using HospitalDb
+@using HospitalDb.Models
+@model Doctor
+
+<h1>Редактирай</h1>
+
+<h4>Лекар</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit" asp-controller="Doctor" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="Name" class="control-label"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Specialnost" class="control-label"></label>
+                <input asp-for="Specialnost" class="form-control" />
+                <span asp-validation-for="Specialnost" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Cabinet" class="control-label"></label>
+                <input asp-for="Cabinet" class="form-control" />
+                <span asp-validation-for="Cabinet" class="text-danger"></span>
+            </div>
+            @*@{
+            Model.Patients = new HashSet<Patient>();
+        }*@
+            <div class="form-group">
+                <input type="submit" value="Редактирай" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Върни</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

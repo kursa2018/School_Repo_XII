@@ -1,0 +1,38 @@
+﻿
+@{
+    ViewData["Title"] = "Details";
+}
+@model Doctor
+
+<h2>Информация за: @Model.Name</h2>
+
+<h3>Специалност: @Model.Specialnost</h3>
+<h3>Кабинет: @Model.Cabinet</h3>
+<hr />
+<h3>Списък с пациенти</h3>
+@if (Model.Patients.Any())
+{
+    <thead>
+        <tr>
+            <th>Име</th>
+            <th>Лечение</th>
+            <th>Цена</th>
+        </tr>
+    </thead>
+    @foreach (var p in Model.Patients)
+    {
+        <tbody>
+            <tr>
+                <td>@p.Name</td>
+                <td>@p.Lechenie</td>
+                <td>@p.Price</td>
+            </tr>
+        </tbody>
+    }
+}
+else
+{
+    <p class="alert-danger">Този лекар няма пациенти</p>
+}
+
+

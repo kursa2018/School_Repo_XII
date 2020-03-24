@@ -1,0 +1,36 @@
+﻿@using HospitalDb.Models
+@using System.Linq
+@model List<Doctor>
+
+
+<h1>
+    Списък с лекари
+</h1>
+<p>
+    <a asp-action="Create">Добави лекар</a>
+</p>
+<table class="table table-bordered table-hover">
+    <thead>
+        <tr>
+            <th>Име</th>
+            <th>Специалност</th>
+            <th>Кабинет</th>
+            <th>Опции</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var d in Model)
+        {
+        <tr>
+            <td>@d.Name</td>
+            <td>@d.Specialnost</td>
+            <td>@d.Cabinet</td>
+            <td>
+                <a asp-action="Details" asp-route-id="@d.Id">Информация</a> |
+                <a asp-action="Edit" asp-route-id="@d.Id">Редатирай</a> |
+                <a asp-action="Delete" asp-route-id="@d.Id">Изтрий</a>
+            </td>
+        </tr>
+        }
+    </tbody>
+</table>
