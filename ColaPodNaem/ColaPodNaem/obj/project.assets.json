@@ -5615,11 +5615,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Stef\\Desktop\\papanov_IT\\School_Repo_XII\\ColaPodNaem\\ColaPodNaem\\ColaPodNaem.csproj",
+      "projectUniqueName": "C:\\Users\\Stef\\Desktop\\Разработка на софтуер\\School_Repo_XII\\ColaPodNaem\\ColaPodNaem\\ColaPodNaem.csproj",
       "projectName": "ColaPodNaem",
-      "projectPath": "C:\\Users\\Stef\\Desktop\\papanov_IT\\School_Repo_XII\\ColaPodNaem\\ColaPodNaem\\ColaPodNaem.csproj",
+      "projectPath": "C:\\Users\\Stef\\Desktop\\Разработка на софтуер\\School_Repo_XII\\ColaPodNaem\\ColaPodNaem\\ColaPodNaem.csproj",
       "packagesPath": "C:\\Users\\Stef\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Stef\\Desktop\\papanov_IT\\School_Repo_XII\\ColaPodNaem\\ColaPodNaem\\obj\\",
+      "outputPath": "C:\\Users\\Stef\\Desktop\\Разработка на софтуер\\School_Repo_XII\\ColaPodNaem\\ColaPodNaem\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

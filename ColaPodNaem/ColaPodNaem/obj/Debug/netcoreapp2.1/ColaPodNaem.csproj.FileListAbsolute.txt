@@ -20,14 +20,14 @@ C:\Users\Вени\Desktop\papanov@gmail.com\School_Repo_XII\ColaPodNaem\ColaPodN
 C:\Users\Вени\Desktop\papanov@gmail.com\School_Repo_XII\ColaPodNaem\ColaPodNaem\obj\Debug\netcoreapp2.1\ColaPodNaem.AssemblyInfo.cs
 C:\Users\Вени\Desktop\papanov@gmail.com\School_Repo_XII\ColaPodNaem\ColaPodNaem\obj\Debug\netcoreapp2.1\ColaPodNaem.dll
 C:\Users\Вени\Desktop\papanov@gmail.com\School_Repo_XII\ColaPodNaem\ColaPodNaem\obj\Debug\netcoreapp2.1\ColaPodNaem.pdb
-C:\Users\Stef\Desktop\papanov_IT\School_Repo_XII\ColaPodNaem\ColaPodNaem\bin\Debug\netcoreapp2.1\ColaPodNaem.deps.json
-C:\Users\Stef\Desktop\papanov_IT\School_Repo_XII\ColaPodNaem\ColaPodNaem\bin\Debug\netcoreapp2.1\ColaPodNaem.runtimeconfig.json
-C:\Users\Stef\Desktop\papanov_IT\School_Repo_XII\ColaPodNaem\ColaPodNaem\bin\Debug\netcoreapp2.1\ColaPodNaem.runtimeconfig.dev.json
-C:\Users\Stef\Desktop\papanov_IT\School_Repo_XII\ColaPodNaem\ColaPodNaem\bin\Debug\netcoreapp2.1\ColaPodNaem.dll
-C:\Users\Stef\Desktop\papanov_IT\School_Repo_XII\ColaPodNaem\ColaPodNaem\bin\Debug\netcoreapp2.1\ColaPodNaem.pdb
-C:\Users\Stef\Desktop\papanov_IT\School_Repo_XII\ColaPodNaem\ColaPodNaem\obj\Debug\netcoreapp2.1\ColaPodNaem.csprojAssemblyReference.cache
-C:\Users\Stef\Desktop\papanov_IT\School_Repo_XII\ColaPodNaem\ColaPodNaem\obj\Debug\netcoreapp2.1\ColaPodNaem.csproj.CoreCompileInputs.cache
-C:\Users\Stef\Desktop\papanov_IT\School_Repo_XII\ColaPodNaem\ColaPodNaem\obj\Debug\netcoreapp2.1\ColaPodNaem.AssemblyInfoInputs.cache
-C:\Users\Stef\Desktop\papanov_IT\School_Repo_XII\ColaPodNaem\ColaPodNaem\obj\Debug\netcoreapp2.1\ColaPodNaem.AssemblyInfo.cs
-C:\Users\Stef\Desktop\papanov_IT\School_Repo_XII\ColaPodNaem\ColaPodNaem\obj\Debug\netcoreapp2.1\ColaPodNaem.dll
-C:\Users\Stef\Desktop\papanov_IT\School_Repo_XII\ColaPodNaem\ColaPodNaem\obj\Debug\netcoreapp2.1\ColaPodNaem.pdb
+C:\Users\Stef\Desktop\Разработка на софтуер\School_Repo_XII\ColaPodNaem\ColaPodNaem\bin\Debug\netcoreapp2.1\ColaPodNaem.deps.json
+C:\Users\Stef\Desktop\Разработка на софтуер\School_Repo_XII\ColaPodNaem\ColaPodNaem\bin\Debug\netcoreapp2.1\ColaPodNaem.runtimeconfig.json
+C:\Users\Stef\Desktop\Разработка на софтуер\School_Repo_XII\ColaPodNaem\ColaPodNaem\bin\Debug\netcoreapp2.1\ColaPodNaem.runtimeconfig.dev.json
+C:\Users\Stef\Desktop\Разработка на софтуер\School_Repo_XII\ColaPodNaem\ColaPodNaem\bin\Debug\netcoreapp2.1\ColaPodNaem.dll
+C:\Users\Stef\Desktop\Разработка на софтуер\School_Repo_XII\ColaPodNaem\ColaPodNaem\bin\Debug\netcoreapp2.1\ColaPodNaem.pdb
+C:\Users\Stef\Desktop\Разработка на софтуер\School_Repo_XII\ColaPodNaem\ColaPodNaem\obj\Debug\netcoreapp2.1\ColaPodNaem.csprojAssemblyReference.cache
+C:\Users\Stef\Desktop\Разработка на софтуер\School_Repo_XII\ColaPodNaem\ColaPodNaem\obj\Debug\netcoreapp2.1\ColaPodNaem.csproj.CoreCompileInputs.cache
+C:\Users\Stef\Desktop\Разработка на софтуер\School_Repo_XII\ColaPodNaem\ColaPodNaem\obj\Debug\netcoreapp2.1\ColaPodNaem.AssemblyInfoInputs.cache
+C:\Users\Stef\Desktop\Разработка на софтуер\School_Repo_XII\ColaPodNaem\ColaPodNaem\obj\Debug\netcoreapp2.1\ColaPodNaem.AssemblyInfo.cs
+C:\Users\Stef\Desktop\Разработка на софтуер\School_Repo_XII\ColaPodNaem\ColaPodNaem\obj\Debug\netcoreapp2.1\ColaPodNaem.dll
+C:\Users\Stef\Desktop\Разработка на софтуер\School_Repo_XII\ColaPodNaem\ColaPodNaem\obj\Debug\netcoreapp2.1\ColaPodNaem.pdb
