@@ -55,6 +55,16 @@ namespace ColaPodNaem
             context.Add(cl1);
             context.SaveChanges();
             //.........................
+            Client cl2 = new Client();
+            cl2.Name = "Григор";
+            cl2.Family = "Димитров";
+            cl2.Karta = 17777;
+            cl2.Adress = "Патриарх Евтими №23";
+            cl2.CreditCard = "BG1594444";
+            cl2.VzetaData = new DateTime(2010, 06, 03);
+            cl2.Kola = "AF5963";
+            context.Add(cl2);
+            context.SaveChanges();
             Display display = new Display();
         }
     }
