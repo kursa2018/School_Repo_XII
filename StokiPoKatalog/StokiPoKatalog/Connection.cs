@@ -6,6 +6,6 @@ namespace StokiPoKatalog
 {
     public class Connection
     {
-        public const string ConnectionString = @"Server=DESKTOP\SQLEXPRESS;Database=catalogDb;Integrated Security=true";
+        public const string ConnectionString = @"Server=(localdb)\mssqllocaldb;Database=catalogDb;Integrated Security=true";
     }
 }
