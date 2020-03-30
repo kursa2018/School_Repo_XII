@@ -35,7 +35,7 @@ namespace WebInterfaceBd
 
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
-            var connection = @"Server=DESKTOP-Q7K8NEA\SQLEXPRESS;Database=avtoBd;Trusted_Connection=true;ConnectRetryCount=0";
+            var connection = @"Server=(localdb)\mssqllocaldb;Database=avtoBd;Trusted_Connection=true;ConnectRetryCount=0";
             services.AddDbContext<avtoBdContext>(options => options.UseSqlServer(connection));
         }
 
